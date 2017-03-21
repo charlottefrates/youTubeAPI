@@ -32,8 +32,13 @@ function displayResults(videos) {
      var html = "";
      $.each(videos, function (index, video) {
           // Append results li to ul
-          html = html + "<li><p class='result-title'>" + video.snippet.title +
-               "</p><a target='_blank' href='https://www.youtube.com/watch?v=" + video.id.videoId + "'><img src='" +  video.snippet.thumbnails.high.url + "'/></a></li>" ;
+          html = html + "<li> <p class='result-title'>"
+               + video.snippet.title
+               +"</p> <a target='_blank' href='https://www.youtube.com/watch?v="
+               + video.id.videoId
+               + "'> <img src='"
+               +  video.snippet.thumbnails.high.url
+               + "'/> </a> </li>" ;
      });
      $("#search-results ul").html(html);
 }

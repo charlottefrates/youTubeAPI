@@ -5,20 +5,13 @@
 .logo{
      display: inline-block;
      padding:1px;
-     width: 5px;
-     height: 5px;
-     margin-left: auto;
-     margin-right: auto;
+     text-align: center;
+     margin-top: 10px;
 }
 
-
-.back{
-     background-image:url('wood.jpg');
-	background-repeat: no-repeat;
-}
 
 .app {
-	background-color: white;
+	background-color: #e8e4e4;
 	border-radius: 2px;
 	margin: 3% auto 0 auto;
 	width: 70%;
@@ -27,9 +20,7 @@
 }
 
 .header {
-	background-color: rgba(255,255,255,0.8);
-	margin-top: -2rem;
-	border-bottom: 0.5rem solid #E6E6E6;
+	background-color: #CBC8C8;
 }
 
 
@@ -38,10 +29,6 @@
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.highlight {
-	color: red;
 }
 
 .result-title{
@@ -57,7 +44,7 @@
 
 input[name="text-field"] {
 	width: 50%;
-	font-family: sans-serif;
+	font-family: Amatic SC;
 	color: #F78585;
 	font-size: 2rem;
 	height: 2rem;
@@ -69,24 +56,24 @@ input[name="text-field"] {
 
 input[name="text-field"]:focus,
 input[name="text-field"].focus {
-	font-family: sans-serif;
+	font-family: Amatic SC;
 	font-size: 2rem;
 	color: #505050;
   	border: solid 5px #969696;
 }
 
+
 input[type="submit"] {
-	font-family: sans-serif;
+	font-family: Amatic SC;
 	letter-spacing: 0.3rem;
 	font-size: 1.5rem;
 	text-transform: uppercase;
 	color: #fff;
 	margin-left: 1rem;
 	padding: 1rem 1rem 0.7rem 1rem;
-  	background-color: red;
+  	background-color: black;
   	border: none;
   	border-radius: 5px;
-  	box-shadow: 0 5px #B46D2E;
   	cursor: pointer;
 }
 
@@ -103,6 +90,7 @@ input[type="submit"]:active {
 
 
 
+
 /*---------RESULTS------*/
 
 #search-term {
@@ -116,7 +104,7 @@ input[type="submit"]:active {
 	float: left;
 	max-width: 25%;
 	height: 17rem;
-	margin-left: 1rem;
+	margin-left: 2rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
 	background-color: #F3EFEF;
@@ -154,11 +142,11 @@ ul {
 }
 
 h1 {
+     font-family: Abril Fatface;
 	color: black;
 	padding-top: 1.5rem;
 	margin-bottom: 0.5rem;
 	font-size: 2.5rem;
-	text-shadow: 1px 1px 2px #505050;
 }
 
 h2 {

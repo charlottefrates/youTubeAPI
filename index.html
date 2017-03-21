@@ -5,21 +5,23 @@
           <title> Tube Search </title>
           <!-- link to css -->
           <link rel="stylesheet" href="css/style.css"/>
+          <!-- link to Google Font Library -->
+          <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Amatic SC">
      </head>
      <body>
           <div class="back">
                <div class="app">
                <div class="header">
-                    <div class="logo hidden">
+                    <div class="logo">
                          <img  src="YouTubeLogo.jpg" alt="You Tube Logo">
                     </div>
-                    <h1>YouTube Search Engine</h1>
-          		<p class="intro">Search for <span class="highlight">top YouTube videos</span> of your interest.</p>
-          		        <form id="search-form">
-          					<input id="search-term" type="text" name="text-field" placeholder="Search YouTube">
-          					<input type="submit">
-          		        </form>
+                    <form id="search-form" class="InputAddOn">
+                         <input id="search-term" class="InputAddOn-field"type="text" name="text-field" placeholder="Search YouTube">
+                         <input type="submit" class="InputAddOn-item">
+                    </form>
+
                </div>
+
      		<div id="search-results">
      			<ul></ul>
      		</div>
